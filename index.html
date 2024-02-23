@@ -32,7 +32,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="header">
+	<section id="header">
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -78,8 +78,8 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-	</div>
-	<div id="about">
+	</section>
+	<section id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" alt="Portrait of Nina Carducci">
 		</div>
@@ -95,8 +95,8 @@
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
-	</div>
-	<div id="gallery">
+	</section>
+	<section id="gallery">
 		<h3 class="title">Portfolio</h3>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
@@ -140,8 +140,8 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
-	</div>
-	<div id="services">
+	</section>
+	<section id="services">
 		<h3 class="title">Mes services</h3>
 		<div class="container">
 			<div class="service">
@@ -179,8 +179,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="quote">
+	</section>
+	<section class="quote">
 		<figure>
 			<blockquote>
 				<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
@@ -188,8 +188,8 @@
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</div>
-	<div id="contact">
+	</section>
+	<section id="contact">
 		<div class="container">
 			<div class="form-container">
 				<h2>Une question ? Une demande de devis ?</h2>
@@ -208,13 +208,39 @@
 				<img src="./assets/images/camera.webp" alt="An old school camera">
 			</div>
 		</div>
-	</div>
+	</section>
+	<footer>
+		<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="./assets/maugallery.js"></script>
+		<!-- <script src="./assets/scripts.js"></script> -->
+		<script type='application/ld+json'>
+		{
+			"@context": "http://www.schema.org",
+			"@type": "Galeried'art",
+			"name": "Nina Carducci",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": " 33200",
+				"addressCountry": "France"
+			},
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "05 56 67 78 89"
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": {
+					"@type": "DayOfWeek",
+					"name": "Lundi au Vendredi de 10h à 19h"
+				}
+			}
+		}
+	</script>
+	</footer>
 </body>
-
-<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="./assets/maugallery.js"></script>
-<!-- <script src="./assets/scripts.js"></script> -->
 
 </html>
