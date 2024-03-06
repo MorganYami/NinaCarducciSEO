@@ -919,9 +919,6 @@ input[type="submit"] {
     .carousel_img {
         max-width: 768px;
     }
-    .carousel-item .active {
-        max-width: 768px;
-    }
     #nina {
         max-width: 285px;
     }
@@ -932,9 +929,6 @@ input[type="submit"] {
 
 @media all and (max-width: 425x) {
     .carousel_img {
-        max-width: 425px;
-    }
-    .carousel-item .active {
         max-width: 425px;
     }
     #nina {
