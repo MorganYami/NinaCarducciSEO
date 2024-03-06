@@ -667,13 +667,16 @@ body {
     padding-inline: 100px;
     padding-block: 100px;
     position: relative;
+    max-width: 1920px;
 }
 
+.picture.left{    
+    max-width: 374px;
+    max-height: 329px;
+}
 .picture.left::before {
     content: ' ';
     background-color: #E5975F;
-    width: 374px;
-    height: 329px;
     position: absolute;
     bottom: 0;
     left: 0;
