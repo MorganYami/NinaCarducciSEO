@@ -899,6 +899,9 @@ input[type="submit"] {
 }
 
 @media all and (min-width: 770px) {
+    .carousel_img {
+        max-width: 1920px;
+    }
     #carousel_img_1 {
         content: url(./images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp);
     }
@@ -913,6 +916,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 768px) {
+    .carousel_img {
+        max-width: 768px;
+    }
     .carousel-item .active {
         max-width: 768px;
     }
@@ -925,6 +931,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 425x) {
+    .carousel_img {
+        max-width: 425px;
+    }
     .carousel-item .active {
         max-width: 425px;
     }
