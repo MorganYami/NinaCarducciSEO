@@ -916,11 +916,17 @@ input[type="submit"] {
     .carousel-item .active {
         max-width: 768px;
     }
+    #nina {
+        max-width: 285px;
+    }
 }
 
 @media all and (max-width: 425x) {
     .carousel-item .active {
         max-width: 425px;
+    }
+    #nina {
+        max-width: 290px;
     }
 }
 
