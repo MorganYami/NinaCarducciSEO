@@ -660,6 +660,9 @@ body {
     width: 20px;
     height: 20px;
 }
+#header{
+    max-height: 888px;
+}
 
 #about {
     display: flex;
@@ -719,10 +722,6 @@ body {
     width: 80%;
     font-size: 14px;
 }
-
-/* #gallery {
-		min-height: 100vh;
-} */
 .title {
     text-align: center;
     padding-block: 2em;
@@ -916,11 +915,19 @@ input[type="submit"] {
     .carousel-item .active {
         max-width: 768px;
     }
+    #about {
+        max-width: 768px;
+        max-height: 900px;
+    }
 }
 
 @media all and (max-width: 425x) {
     .carousel-item .active {
         max-width: 425px;
+    }
+    #about {
+        max-width: 425px;
+        max-height: 960px;
     }
 }
 
