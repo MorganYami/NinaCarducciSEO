@@ -897,10 +897,13 @@ input[type="submit"] {
 .nav-link {
     cursor: pointer;
 }
-
+.carousel_img {
+    width: 100vw;
+}
 @media all and (min-width: 769px) {
     .carousel_img {
         max-width: 1920px;
+        height: 46.25vw;
     }
     #carousel_img_1 {
         content: url(./images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp);
@@ -918,6 +921,7 @@ input[type="submit"] {
 @media all and (max-width: 768px) {
     .carousel_img {
         max-width: 768px;
+        height: 46.25vw;
     }
     #nina {
         max-width: 285px;
@@ -930,6 +934,7 @@ input[type="submit"] {
 @media all and (max-width: 425x) {
     .carousel_img {
         max-width: 425px;
+        height: 46.25vw;
     }
     .carousel-item .active {
         max-width: 425px;
