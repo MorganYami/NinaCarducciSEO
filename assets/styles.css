@@ -919,6 +919,9 @@ input[type="submit"] {
     #nina {
         max-width: 285px;
     }
+    #about-me {
+        max-width: 568px;
+    }
 }
 
 @media all and (max-width: 425x) {
@@ -927,6 +930,9 @@ input[type="submit"] {
     }
     #nina {
         max-width: 290px;
+    }
+    #about-me {
+        max-width: 365px;
     }
 }
 
